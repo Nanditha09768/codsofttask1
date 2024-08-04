@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Explore the World</title>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><a href="#">ExploreWorld</a></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="signin.html">Sign In</a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Search">
+      <i class="ri-search-line"></i>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="intro-section">
+      <div class="text-content">
+        <h1>Discover the <br> World.</h1>
+        <p>Traveling offers you the chance to experience new cultures, enjoy diverse cuisines, and appreciate the beauty of nature. It pushes you out of your comfort zone and enriches your life.</p>
+        <button class="btn read-more-btn">Read More</button>
+      </div>
+      <div class="navigation-arrows">
+        <span class="arrow-left"><i class="ri-arrow-left-s-line"></i></span>
+        <span class="arrow-right"><i class="ri-arrow-right-s-line"></i></span>
+      </div>
+    </section>
+
+    <section class="form-section">
+      <img src="bg.jpg" alt="Travel Image">
+      <form>
+        <h4>Plan Your Trip</h4>
+        <div class="form-group">
+          <label for="destination">Destination</label>
+          <input type="text" id="destination" name="destination" placeholder="Enter destination">
+        </div>
+        <div class="form-group">
+          <label for="date">Date</label>
+          <input type="text" id="date" name="date" placeholder="dd/mm/yyyy">
+        </div>
+        <button type="submit" class="btn">Find Packages</button>
+      </form>
+    </section>
+
+    <div class="progress-tracker">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </main>
+</body>
+</html>
